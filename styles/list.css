@@ -1,0 +1,42 @@
+.top {
+  height: 200px;
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+.topmini {
+  height: 150px;
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+.top span{
+  font-size: 60px;
+  color :#99f;
+  font-weight: bold;
+  line-height: 200px;
+}
+.topmini span{
+  font-size: 40px;
+  color :#99f;
+  font-weight: bold;
+  line-height: 150px;
+}
+.top span::after{
+  content: '';
+  display: block;
+  width: 200px;
+  height: 200px;
+  background: url('/static/img/logo.png') no-repeat;
+  background-size: 200px auto;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 70%;
+}
+
+.title{
+  
+}

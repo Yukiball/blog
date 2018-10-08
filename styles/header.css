@@ -1,0 +1,19 @@
+nav ul li {
+  float:left;
+  text-decoration: none;
+  list-style: none;
+}
+
+.logo{
+  overflow: hidden;
+  height: 64px;
+}
+.logo img{
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
+  
+}
